@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Helvetica1";
+    src: url(fonts/HelveticaNeueCyr-Medium.woff);
+}
+
+@font-face {
+    font-family: "Helvetica2";
+    src: url(fonts/HelveticaNeueCyr-Roman.woff);
+}
+html{
+    font-family: "Helvetica1", serif;
+}
+
+body{
+    padding: 0px;
+}
+.logo{
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white; 
+    z-index: 100;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    
+
+}
+.hero{
+    background-image: url("images/lab\ \(10\).png");
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-head{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color: white;
+    border: 1px solid rgba(228, 228, 228, 0.558);
+    border-radius: 10px;
+    margin: 20px 15px;
+    width: 300px;
+}
+
+.box p {
+    word-wrap: break-word;
+    margin: 20px 10px;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+
+.works1{
+    background-color: white;
+    border: 1px solid rgba(228, 228, 228, 0.558);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 20px 300px;
+    border-radius: 10px;
+}
+
+.stomach{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
